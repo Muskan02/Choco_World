@@ -1,0 +1,70 @@
+body{
+	background: chocolate;
+}
+
+#mainNavbar {
+	font-weight: 100;
+	font-size: 1.5rem;
+}
+
+#mainNavbar .navbar-brand{
+	font-family: 'Chelsea Market', cursive;
+	color: saddlebrown;
+}
+
+#minNavbar .navlink{
+	font-family: 'Nunito', sans-serif;
+}
+
+#mainNavbar .nav-link:hover{
+	font-family: 'Nunito', sans-serif;
+	color: saddlebrown;
+}
+
+#heading h1{
+	font-weight: 100;
+	font-size: 3.5rem;
+	font-family: 'Nunito', sans-serif;
+}
+
+#heading span{
+	color:saddlebrown;
+}
+
+@media (max-width:1200px ){
+	#heading h1{
+	font-weight: 100;
+	font-size: 3rem;
+	font-family: 'Nunito', sans-serif;
+}
+}
+
+#heading1{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#heading1 h2{
+	color:saddlebrown;
+	font-weight: 100;
+	font-size: 2rem;
+}
+
+#heading1 p{
+	color: white;
+	font-weight: 100;
+	font-size: 1.125rem;
+}
+
+@media (max-width: 800px){
+	#heading2 p{
+	color: white;
+	font-weight: 100;
+	font-size:1rem;
+}
+}
+
+.navbar.scrolled{
+	background:black;
+	transition: background 500ms;
+}
