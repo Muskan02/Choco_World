@@ -14,7 +14,7 @@ body{
   background: black; 
 }
 
-/* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
@@ -83,6 +83,6 @@ body{
 }
 
 .navbar.scrolled{
-	background:black;
+	background: grey;
 	transition: background 500ms;
 }
